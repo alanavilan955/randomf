@@ -1,0 +1,23 @@
+# Source financial data: never commit
+*.xlsx
+*.xlsm
+*.xls
+2026 Performance Model Consolidation 8+4.1.xlsx
+
+# Trained models and generated exports
+*.joblib
+predictions*.csv
+plant_summary*.csv
+data_quality*.csv
+backtesting*.csv
+performance_model_results*.xlsx
+
+# Python / Streamlit
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.pytest_cache/
+.DS_Store
